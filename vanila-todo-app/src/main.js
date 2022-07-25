@@ -1,8 +1,10 @@
+require('./style.css');
+
 const $button = document.querySelector('.submit');
 const todos = document.querySelector('#todo-list');
 const todoInput = document.querySelector('#todo-input');
 const msg = document.querySelector('#msg');
-const onClickButton = (e) => {
+const onClickButton = e => {
   e.preventDefault();
   if (!todoInput.value) {
     msg.style.display = 'block';
