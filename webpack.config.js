@@ -23,7 +23,7 @@ module.exports = {
     ],
   },
   devServer: {
-    contentBase: __dirname + '/dist/',
+    contentBase: __dirname + '/docs/',
     host: 'localhost',
     port: 3000,
   },
